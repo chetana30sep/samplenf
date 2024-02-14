@@ -1,0 +1,438 @@
+"2023-07-21 07:15:18 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7h15m28s294ms24µs900ns).
+""2023-07-21 07:22:54 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m34s595ms795µs400ns).
+""2023-07-21 07:28:47 - Application shutdown requested.
+""2023-07-21 07:28:47 - Stopping service [Tomcat]
+""2023-07-21 07:28:47 - Destroying Spring FrameworkServlet 'dispatcherServlet'
+""2023-07-21 07:28:47 - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2023-07-21 07:28:48 - HikariPool-1 - Shutdown initiated...
+""2023-07-21 07:28:48 - HikariPool-1 - Shutdown completed.
+""2023-07-21 08:46:54 - Starting TelecomProject1Application using Java 17.0.3 on LAPTOP-2PQ3736K with PID 34524 (C:\Users\CHETANA SADARE\Downloads\Telecom-Project-1\Telecom-Project-1\target\classes started by CHETANA SADARE in C:\Users\CHETANA SADARE\Downloads\Telecom-Project-1\Telecom-Project-1)
+""2023-07-21 08:46:54 - Running with Spring Boot v2.7.13, Spring v5.3.28
+""2023-07-21 08:46:54 - No active profile set, falling back to 1 default profile: "default"
+""2023-07-21 08:46:55 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2023-07-21 08:46:55 - Finished Spring Data repository scanning in 45 ms. Found 3 JPA repository interfaces.
+""2023-07-21 08:46:55 - Tomcat initialized with port(s): 8060 (http)
+""2023-07-21 08:46:55 - Starting service [Tomcat]
+""2023-07-21 08:46:55 - Starting Servlet engine: [Apache Tomcat/9.0.76]
+""2023-07-21 08:46:56 - Initializing Spring embedded WebApplicationContext
+""2023-07-21 08:46:56 - Root WebApplicationContext: initialization completed in 1106 ms
+""2023-07-21 08:46:56 - HikariPool-1 - Starting...
+""2023-07-21 08:46:56 - HikariPool-1 - Start completed.
+""2023-07-21 08:46:57 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2023-07-21 08:46:58 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2023-07-21 08:46:58 - 10 mappings in 'requestMappingHandlerMapping'
+""2023-07-21 08:46:58 - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+""2023-07-21 08:46:58 - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+""2023-07-21 08:46:58 - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+""2023-07-21 08:46:58 - ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+""2023-07-21 08:46:58 - Tomcat started on port(s): 8060 (http) with context path ''
+""2023-07-21 08:46:58 - Context refreshed
+""2023-07-21 08:46:58 - Found 1 custom documentation plugin(s)
+""2023-07-21 08:46:58 - Scanning for api listing references
+""2023-07-21 08:46:58 - Started TelecomProject1Application in 4.145 seconds (JVM running for 4.86)
+""2023-07-21 08:47:40 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+""2023-07-21 08:47:40 - Initializing Servlet 'dispatcherServlet'
+""2023-07-21 08:47:40 - Detected StandardServletMultipartResolver
+""2023-07-21 08:47:40 - Detected AcceptHeaderLocaleResolver
+""2023-07-21 08:47:40 - Detected FixedThemeResolver
+""2023-07-21 08:47:40 - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@6779af40
+""2023-07-21 08:47:40 - Detected org.springframework.web.servlet.support.SessionFlashMapManager@488c6c98
+""2023-07-21 08:47:40 - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+""2023-07-21 08:47:40 - Completed initialization in 1 ms
+""2023-07-21 08:47:40 - GET "/webjars/springfox-swagger-ui/css/typography.css", parameters={}
+""2023-07-21 08:47:40 - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+""2023-07-21 08:47:40 - Resource not found
+""2023-07-21 08:47:40 - Completed 404 NOT_FOUND
+""2023-07-21 08:47:40 - "ERROR" dispatch for GET "/error", parameters={}
+""2023-07-21 08:47:40 - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+""2023-07-21 08:47:40 - Using 'application/json;q=0.1', given [text/css, */*;q=0.1] and supported [application/json, application/*+json, application/json, application/*+json]
+""2023-07-21 08:47:40 - Writing [{timestamp=Fri Jul 21 08:47:40 IST 2023, status=404, error=Not Found, path=/webjars/springfox-swagge (truncated)...]
+""2023-07-21 08:47:40 - Exiting from "ERROR" dispatch, status 404
+""2023-07-21 08:47:41 - GET "/swagger-resources/configuration/ui", parameters={}
+""2023-07-21 08:47:41 - Mapped to springfox.documentation.swagger.web.ApiResourceController#uiConfiguration()
+""2023-07-21 08:47:41 - Using 'application/json', given [application/json, text/javascript, */*;q=0.01] and supported [application/json, application/*+json, application/json, application/*+json]
+""2023-07-21 08:47:41 - Writing [springfox.documentation.swagger.web.UiConfiguration@257ce2a1]
+""2023-07-21 08:47:41 - Completed 200 OK
+""2023-07-21 08:47:41 - GET "/swagger-resources", parameters={}
+""2023-07-21 08:47:41 - Mapped to springfox.documentation.swagger.web.ApiResourceController#swaggerResources()
+""2023-07-21 08:47:41 - Using 'application/json', given [application/json, text/javascript, */*;q=0.01] and supported [application/json, application/*+json, application/json, application/*+json]
+""2023-07-21 08:47:41 - Writing [[springfox.documentation.swagger.web.SwaggerResource@4f15641d]]
+""2023-07-21 08:47:41 - Completed 200 OK
+""2023-07-21 08:47:41 - GET "/v2/api-docs", parameters={}
+""2023-07-21 08:47:41 - Using 'application/json;charset=utf-8', given [application/json;charset=utf-8, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+""2023-07-21 08:47:41 - Writing [springfox.documentation.spring.web.json.Json@7e4ecf4e]
+""2023-07-21 08:47:41 - Completed 200 OK
+""2023-07-21 08:47:41 - GET "/swagger-resources/configuration/security", parameters={}
+""2023-07-21 08:47:41 - Mapped to springfox.documentation.swagger.web.ApiResourceController#securityConfiguration()
+""2023-07-21 08:47:41 - Using 'application/json', given [application/json, text/javascript, */*;q=0.01] and supported [application/json, application/*+json, application/json, application/*+json]
+""2023-07-21 08:47:41 - Writing [springfox.documentation.swagger.web.SecurityConfiguration@5d86133b]
+""2023-07-21 08:47:41 - Completed 200 OK
+""2023-07-21 08:49:21 - POST "/networkFunctionInstance/save", parameters={}
+""2023-07-21 08:49:21 - Mapped to com.example.controller.NetworkFunctionInstanceController#saveNfInstance(NetworkFunctionInstance)
+""2023-07-21 08:49:21 - Read "application/json;charset=UTF-8" to [NetworkFunctionInstance [networkFunctionInstanceId=NfTest1, networkFunctionInstanceType=NRF, status= (truncated)...]
+""2023-07-21 08:49:22 - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+""2023-07-21 08:49:22 - Writing [NetworkFunctionInstance [networkFunctionInstanceId=NfTest1, networkFunctionInstanceType=NRF, status= (truncated)...]
+""2023-07-21 08:49:22 - Completed 200 OK
+""2023-07-21 08:50:48 - POST "/networkFunctionInstance/save", parameters={}
+""2023-07-21 08:50:48 - Mapped to com.example.controller.NetworkFunctionInstanceController#saveNfInstance(NetworkFunctionInstance)
+""2023-07-21 08:50:48 - Read "application/json;charset=UTF-8" to [NetworkFunctionInstance [networkFunctionInstanceId=NfTest1, networkFunctionInstanceType=NRF, status= (truncated)...]
+""2023-07-21 08:50:48 - Using @ExceptionHandler com.example.interceptors.GlobalExceptionHandler#constraintViolationException(ConstraintViolationException, WebRequest)
+""2023-07-21 08:50:48 - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+""2023-07-21 08:50:48 - Writing [{errors=[The ip address is invalid.]}]
+""2023-07-21 08:50:48 - Resolved [org.springframework.transaction.TransactionSystemException: Could not commit JPA transaction; nested exception is javax.persistence.RollbackException: Error while committing the transaction]
+""2023-07-21 08:50:48 - Completed 400 BAD_REQUEST
+""2023-07-21 08:59:00 - Application shutdown requested.
+""2023-07-21 08:59:00 - Stopping service [Tomcat]
+""2023-07-21 08:59:00 - Destroying Spring FrameworkServlet 'dispatcherServlet'
+""2023-07-21 08:59:00 - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2023-07-21 08:59:00 - HikariPool-1 - Shutdown initiated...
+""2023-07-21 08:59:00 - HikariPool-1 - Shutdown completed.
+""2023-07-21 08:59:07 - Starting TelecomProject1Application using Java 17.0.3 on LAPTOP-2PQ3736K with PID 12560 (C:\Users\CHETANA SADARE\Downloads\Telecom-Project-1\Telecom-Project-1\target\classes started by CHETANA SADARE in C:\Users\CHETANA SADARE\Downloads\Telecom-Project-1\Telecom-Project-1)
+""2023-07-21 08:59:07 - Running with Spring Boot v2.7.13, Spring v5.3.28
+""2023-07-21 08:59:07 - No active profile set, falling back to 1 default profile: "default"
+""2023-07-21 08:59:08 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2023-07-21 08:59:08 - Finished Spring Data repository scanning in 50 ms. Found 3 JPA repository interfaces.
+""2023-07-21 08:59:08 - Tomcat initialized with port(s): 8060 (http)
+""2023-07-21 08:59:08 - Starting service [Tomcat]
+""2023-07-21 08:59:08 - Starting Servlet engine: [Apache Tomcat/9.0.76]
+""2023-07-21 08:59:08 - Initializing Spring embedded WebApplicationContext
+""2023-07-21 08:59:08 - Root WebApplicationContext: initialization completed in 1382 ms
+""2023-07-21 08:59:09 - HikariPool-1 - Starting...
+""2023-07-21 08:59:09 - HikariPool-1 - Start completed.
+""2023-07-21 08:59:10 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2023-07-21 08:59:11 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2023-07-21 08:59:11 - 10 mappings in 'requestMappingHandlerMapping'
+""2023-07-21 08:59:11 - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+""2023-07-21 08:59:11 - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+""2023-07-21 08:59:11 - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+""2023-07-21 08:59:11 - ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+""2023-07-21 08:59:11 - Tomcat started on port(s): 8060 (http) with context path ''
+""2023-07-21 08:59:11 - Context refreshed
+""2023-07-21 08:59:11 - Found 1 custom documentation plugin(s)
+""2023-07-21 08:59:11 - Scanning for api listing references
+""2023-07-21 08:59:11 - Started TelecomProject1Application in 4.663 seconds (JVM running for 5.305)
+""2023-07-21 08:59:26 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+""2023-07-21 08:59:26 - Initializing Servlet 'dispatcherServlet'
+""2023-07-21 08:59:26 - Detected StandardServletMultipartResolver
+""2023-07-21 08:59:26 - Detected AcceptHeaderLocaleResolver
+""2023-07-21 08:59:26 - Detected FixedThemeResolver
+""2023-07-21 08:59:26 - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@33ce081a
+""2023-07-21 08:59:26 - Detected org.springframework.web.servlet.support.SessionFlashMapManager@4bd39edc
+""2023-07-21 08:59:26 - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+""2023-07-21 08:59:26 - Completed initialization in 6 ms
+""2023-07-21 08:59:26 - POST "/networkFunctionInstance/save", parameters={}
+""2023-07-21 08:59:26 - Mapped to com.example.controller.NetworkFunctionInstanceController#saveNfInstance(NetworkFunctionInstance)
+""2023-07-21 08:59:27 - Read "application/json;charset=UTF-8" to [NetworkFunctionInstance [networkFunctionInstanceId=NfTest1, networkFunctionInstanceType=NRF, status= (truncated)...]
+""2023-07-21 08:59:27 - Failed to complete request: org.springframework.transaction.TransactionSystemException: Could not commit JPA transaction; nested exception is javax.persistence.RollbackException: Error while committing the transaction
+""2023-07-21 08:59:27 - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.transaction.TransactionSystemException: Could not commit JPA transaction; nested exception is javax.persistence.RollbackException: Error while committing the transaction] with root cause
+"javax.validation.ConstraintViolationException: Validation failed for classes [com.example.entity.NfProfile] during persist time for groups [javax.validation.groups.Default, ]
+List of constraint violations:[
+	ConstraintViolationImpl{interpolatedMessage='The ip address is invalid.', propertyPath=ipV4Addresses, rootBeanClass=class com.example.entity.NfProfile, messageTemplate='The ip address is invalid.'}
+]
+	at org.hibernate.cfg.beanvalidation.BeanValidationEventListener.validate(BeanValidationEventListener.java:140)
+	at org.hibernate.cfg.beanvalidation.BeanValidationEventListener.onPreInsert(BeanValidationEventListener.java:80)
+	at org.hibernate.action.internal.EntityInsertAction.preInsert(EntityInsertAction.java:214)
+	at org.hibernate.action.internal.EntityInsertAction.execute(EntityInsertAction.java:100)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:604)
+	at org.hibernate.engine.spi.ActionQueue.lambda$executeActions$1(ActionQueue.java:478)
+	at java.base/java.util.LinkedHashMap.forEach(LinkedHashMap.java:721)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:475)
+	at org.hibernate.event.internal.AbstractFlushingEventListener.performExecutions(AbstractFlushingEventListener.java:344)
+	at org.hibernate.event.internal.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:40)
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:107)
+	at org.hibernate.internal.SessionImpl.doFlush(SessionImpl.java:1407)
+	at org.hibernate.internal.SessionImpl.managedFlush(SessionImpl.java:489)
+	at org.hibernate.internal.SessionImpl.flushBeforeTransactionCompletion(SessionImpl.java:3303)
+	at org.hibernate.internal.SessionImpl.beforeTransactionCompletion(SessionImpl.java:2438)
+	at org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl.beforeTransactionCompletion(JdbcCoordinatorImpl.java:449)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.beforeCompletionCallback(JdbcResourceLocalTransactionCoordinatorImpl.java:183)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.access$300(JdbcResourceLocalTransactionCoordinatorImpl.java:40)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.commit(JdbcResourceLocalTransactionCoordinatorImpl.java:281)
+	at org.hibernate.engine.transaction.internal.TransactionImpl.commit(TransactionImpl.java:101)
+	at org.springframework.orm.jpa.JpaTransactionManager.doCommit(JpaTransactionManager.java:562)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.processCommit(AbstractPlatformTransactionManager.java:743)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.commit(AbstractPlatformTransactionManager.java:711)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.commitTransactionAfterReturning(TransactionAspectSupport.java:654)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:407)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:174)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:241)
+	at jdk.proxy2/jdk.proxy2.$Proxy122.save(Unknown Source)
+	at com.example.service.NetworkFunctionInstanceServiceImpl.saveNfInstance(NetworkFunctionInstanceServiceImpl.java:21)
+	at com.example.controller.NetworkFunctionInstanceController.saveNfInstance(NetworkFunctionInstanceController.java:41)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1072)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+"2023-07-21 08:59:27 - "ERROR" dispatch for POST "/error", parameters={}
+""2023-07-21 08:59:27 - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+""2023-07-21 08:59:27 - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+""2023-07-21 08:59:27 - Writing [{timestamp=Fri Jul 21 08:59:27 IST 2023, status=500, error=Internal Server Error, path=/networkFunct (truncated)...]
+""2023-07-21 08:59:27 - Exiting from "ERROR" dispatch, status 500
+""2023-07-21 09:02:46 - Application shutdown requested.
+""2023-07-21 09:02:46 - Stopping service [Tomcat]
+""2023-07-21 09:02:46 - Destroying Spring FrameworkServlet 'dispatcherServlet'
+""2023-07-21 09:02:46 - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2023-07-21 09:02:46 - HikariPool-1 - Shutdown initiated...
+""2023-07-21 09:02:46 - HikariPool-1 - Shutdown completed.
+""2023-07-21 09:02:56 - Starting TelecomProject1Application using Java 17.0.3 on LAPTOP-2PQ3736K with PID 14256 (C:\Users\CHETANA SADARE\Downloads\Telecom-Project-1\Telecom-Project-1\target\classes started by CHETANA SADARE in C:\Users\CHETANA SADARE\Downloads\Telecom-Project-1\Telecom-Project-1)
+""2023-07-21 09:02:56 - Running with Spring Boot v2.7.13, Spring v5.3.28
+""2023-07-21 09:02:56 - No active profile set, falling back to 1 default profile: "default"
+""2023-07-21 09:02:57 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2023-07-21 09:02:57 - Finished Spring Data repository scanning in 45 ms. Found 3 JPA repository interfaces.
+""2023-07-21 09:02:58 - Tomcat initialized with port(s): 8060 (http)
+""2023-07-21 09:02:58 - Starting service [Tomcat]
+""2023-07-21 09:02:58 - Starting Servlet engine: [Apache Tomcat/9.0.76]
+""2023-07-21 09:02:58 - Initializing Spring embedded WebApplicationContext
+""2023-07-21 09:02:58 - Root WebApplicationContext: initialization completed in 1148 ms
+""2023-07-21 09:02:58 - HikariPool-1 - Starting...
+""2023-07-21 09:02:58 - HikariPool-1 - Start completed.
+""2023-07-21 09:02:59 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2023-07-21 09:03:00 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2023-07-21 09:03:00 - 10 mappings in 'requestMappingHandlerMapping'
+""2023-07-21 09:03:00 - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+""2023-07-21 09:03:00 - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+""2023-07-21 09:03:00 - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+""2023-07-21 09:03:00 - ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+""2023-07-21 09:03:00 - Tomcat started on port(s): 8060 (http) with context path ''
+""2023-07-21 09:03:00 - Context refreshed
+""2023-07-21 09:03:00 - Found 1 custom documentation plugin(s)
+""2023-07-21 09:03:00 - Scanning for api listing references
+""2023-07-21 09:03:00 - Started TelecomProject1Application in 4.03 seconds (JVM running for 4.726)
+""2023-07-21 09:03:13 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+""2023-07-21 09:03:13 - Initializing Servlet 'dispatcherServlet'
+""2023-07-21 09:03:13 - Detected StandardServletMultipartResolver
+""2023-07-21 09:03:13 - Detected AcceptHeaderLocaleResolver
+""2023-07-21 09:03:13 - Detected FixedThemeResolver
+""2023-07-21 09:03:13 - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@4eb3b690
+""2023-07-21 09:03:13 - Detected org.springframework.web.servlet.support.SessionFlashMapManager@433362e0
+""2023-07-21 09:03:13 - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+""2023-07-21 09:03:13 - Completed initialization in 6 ms
+""2023-07-21 09:03:13 - POST "/networkFunctionInstance/save", parameters={}
+""2023-07-21 09:03:13 - Mapped to com.example.controller.NetworkFunctionInstanceController#saveNfInstance(NetworkFunctionInstance)
+""2023-07-21 09:03:13 - Read "application/json;charset=UTF-8" to [NetworkFunctionInstance [networkFunctionInstanceId=NfTest1, networkFunctionInstanceType=NRF, status= (truncated)...]
+""2023-07-21 09:03:13 - Using @ExceptionHandler com.example.interceptors.GlobalExceptionHandler#constraintViolationException(ConstraintViolationException, WebRequest)
+""2023-07-21 09:03:13 - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+""2023-07-21 09:03:13 - Writing [{errors=[The ip address is invalid.]}]
+""2023-07-21 09:03:13 - Resolved [org.springframework.transaction.TransactionSystemException: Could not commit JPA transaction; nested exception is javax.persistence.RollbackException: Error while committing the transaction]
+""2023-07-21 09:03:13 - Completed 400 BAD_REQUEST
+""2023-07-21 09:03:30 - POST "/networkFunctionInstance/save", parameters={}
+""2023-07-21 09:03:30 - Mapped to com.example.controller.NetworkFunctionInstanceController#saveNfInstance(NetworkFunctionInstance)
+""2023-07-21 09:03:30 - Read "application/json;charset=UTF-8" to [NetworkFunctionInstance [networkFunctionInstanceId=NfTest1, networkFunctionInstanceType=NRF, status= (truncated)...]
+""2023-07-21 09:03:31 - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+""2023-07-21 09:03:31 - Writing [NetworkFunctionInstance [networkFunctionInstanceId=NfTest1, networkFunctionInstanceType=NRF, status= (truncated)...]
+""2023-07-21 09:03:31 - Completed 200 OK
+""2023-07-21 09:04:29 - Application shutdown requested.
+""2023-07-21 09:04:29 - Stopping service [Tomcat]
+""2023-07-21 09:04:29 - Destroying Spring FrameworkServlet 'dispatcherServlet'
+""2023-07-21 09:04:29 - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2023-07-21 09:04:29 - HikariPool-1 - Shutdown initiated...
+""2023-07-21 09:04:29 - HikariPool-1 - Shutdown completed.
+""2023-07-21 09:04:36 - Starting TelecomProject1Application using Java 17.0.3 on LAPTOP-2PQ3736K with PID 15908 (C:\Users\CHETANA SADARE\Downloads\Telecom-Project-1\Telecom-Project-1\target\classes started by CHETANA SADARE in C:\Users\CHETANA SADARE\Downloads\Telecom-Project-1\Telecom-Project-1)
+""2023-07-21 09:04:36 - Running with Spring Boot v2.7.13, Spring v5.3.28
+""2023-07-21 09:04:36 - No active profile set, falling back to 1 default profile: "default"
+""2023-07-21 09:04:36 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2023-07-21 09:04:36 - Finished Spring Data repository scanning in 39 ms. Found 3 JPA repository interfaces.
+""2023-07-21 09:04:37 - Tomcat initialized with port(s): 8060 (http)
+""2023-07-21 09:04:37 - Starting service [Tomcat]
+""2023-07-21 09:04:37 - Starting Servlet engine: [Apache Tomcat/9.0.76]
+""2023-07-21 09:04:37 - Initializing Spring embedded WebApplicationContext
+""2023-07-21 09:04:37 - Root WebApplicationContext: initialization completed in 1211 ms
+""2023-07-21 09:04:37 - HikariPool-1 - Starting...
+""2023-07-21 09:04:38 - HikariPool-1 - Start completed.
+""2023-07-21 09:04:39 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2023-07-21 09:04:39 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2023-07-21 09:04:39 - 10 mappings in 'requestMappingHandlerMapping'
+""2023-07-21 09:04:39 - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+""2023-07-21 09:04:39 - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+""2023-07-21 09:04:39 - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+""2023-07-21 09:04:39 - ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+""2023-07-21 09:04:39 - Tomcat started on port(s): 8060 (http) with context path ''
+""2023-07-21 09:04:39 - Context refreshed
+""2023-07-21 09:04:39 - Found 1 custom documentation plugin(s)
+""2023-07-21 09:04:39 - Scanning for api listing references
+""2023-07-21 09:04:39 - Started TelecomProject1Application in 3.948 seconds (JVM running for 4.534)
+""2023-07-21 09:04:50 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+""2023-07-21 09:04:50 - Initializing Servlet 'dispatcherServlet'
+""2023-07-21 09:04:50 - Detected StandardServletMultipartResolver
+""2023-07-21 09:04:50 - Detected AcceptHeaderLocaleResolver
+""2023-07-21 09:04:50 - Detected FixedThemeResolver
+""2023-07-21 09:04:50 - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@75c30a4f
+""2023-07-21 09:04:50 - Detected org.springframework.web.servlet.support.SessionFlashMapManager@5c20841d
+""2023-07-21 09:04:50 - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+""2023-07-21 09:04:50 - Completed initialization in 4 ms
+""2023-07-21 09:04:50 - POST "/networkFunctionInstance/save", parameters={}
+""2023-07-21 09:04:50 - Mapped to com.example.controller.NetworkFunctionInstanceController#saveNfInstance(NetworkFunctionInstance)
+""2023-07-21 09:04:51 - Read "application/json;charset=UTF-8" to [NetworkFunctionInstance [networkFunctionInstanceId=NfTest1, networkFunctionInstanceType=NRF, status= (truncated)...]
+""2023-07-21 09:04:51 - Using @ExceptionHandler com.example.interceptors.GlobalExceptionHandler#constraintViolationException(ConstraintViolationException, WebRequest)
+""2023-07-21 09:04:51 - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+""2023-07-21 09:04:51 - Writing [{errors=[must be greater than or equal to 5]}]
+""2023-07-21 09:04:51 - Resolved [org.springframework.transaction.TransactionSystemException: Could not commit JPA transaction; nested exception is javax.persistence.RollbackException: Error while committing the transaction]
+""2023-07-21 09:04:51 - Completed 400 BAD_REQUEST
+""2023-07-21 09:46:39 - Application shutdown requested.
+""2023-07-21 09:46:39 - Stopping service [Tomcat]
+""2023-07-21 09:46:39 - Destroying Spring FrameworkServlet 'dispatcherServlet'
+""2023-07-21 09:46:39 - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2023-07-21 09:46:39 - HikariPool-1 - Shutdown initiated...
+""2023-07-21 09:46:39 - HikariPool-1 - Shutdown completed.
+""2023-07-21 09:46:46 - Starting TelecomProject1Application using Java 17.0.3 on LAPTOP-2PQ3736K with PID 41968 (C:\Users\CHETANA SADARE\Downloads\Telecom-Project-1\Telecom-Project-1\target\classes started by CHETANA SADARE in C:\Users\CHETANA SADARE\Downloads\Telecom-Project-1\Telecom-Project-1)
+""2023-07-21 09:46:46 - Running with Spring Boot v2.7.13, Spring v5.3.28
+""2023-07-21 09:46:46 - No active profile set, falling back to 1 default profile: "default"
+""2023-07-21 09:46:47 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2023-07-21 09:46:47 - Finished Spring Data repository scanning in 50 ms. Found 3 JPA repository interfaces.
+""2023-07-21 09:46:48 - Tomcat initialized with port(s): 8060 (http)
+""2023-07-21 09:46:48 - Starting service [Tomcat]
+""2023-07-21 09:46:48 - Starting Servlet engine: [Apache Tomcat/9.0.76]
+""2023-07-21 09:46:48 - Initializing Spring embedded WebApplicationContext
+""2023-07-21 09:46:48 - Root WebApplicationContext: initialization completed in 1361 ms
+""2023-07-21 09:46:48 - HikariPool-1 - Starting...
+""2023-07-21 09:46:48 - HikariPool-1 - Start completed.
+""2023-07-21 09:46:50 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2023-07-21 09:46:50 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2023-07-21 09:46:50 - 10 mappings in 'requestMappingHandlerMapping'
+""2023-07-21 09:46:50 - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+""2023-07-21 09:46:50 - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+""2023-07-21 09:46:50 - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+""2023-07-21 09:46:50 - ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+""2023-07-21 09:46:50 - Tomcat started on port(s): 8060 (http) with context path ''
+""2023-07-21 09:46:50 - Context refreshed
+""2023-07-21 09:46:50 - Found 1 custom documentation plugin(s)
+""2023-07-21 09:46:51 - Scanning for api listing references
+""2023-07-21 09:46:51 - Started TelecomProject1Application in 4.805 seconds (JVM running for 5.504)
+""2023-07-21 09:47:12 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+""2023-07-21 09:47:12 - Initializing Servlet 'dispatcherServlet'
+""2023-07-21 09:47:12 - Detected StandardServletMultipartResolver
+""2023-07-21 09:47:12 - Detected AcceptHeaderLocaleResolver
+""2023-07-21 09:47:12 - Detected FixedThemeResolver
+""2023-07-21 09:47:12 - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@1454339d
+""2023-07-21 09:47:12 - Detected org.springframework.web.servlet.support.SessionFlashMapManager@3305897c
+""2023-07-21 09:47:12 - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+""2023-07-21 09:47:12 - Completed initialization in 0 ms
+""2023-07-21 09:47:12 - POST "/networkFunctionInstance/save", parameters={}
+""2023-07-21 09:47:12 - Mapped to com.example.controller.NetworkFunctionInstanceController#saveNfInstance(NetworkFunctionInstance)
+""2023-07-21 09:47:12 - Read "application/json;charset=UTF-8" to [NetworkFunctionInstance [networkFunctionInstanceId=NfTest1, networkFunctionInstanceType=NRF, status= (truncated)...]
+""2023-07-21 09:47:12 - Using @ExceptionHandler com.example.interceptors.GlobalExceptionHandler#constraintViolationException(ConstraintViolationException, WebRequest)
+""2023-07-21 09:47:12 - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+""2023-07-21 09:47:12 - Writing [{errors=[must be greater than or equal to 5]}]
+""2023-07-21 09:47:12 - Resolved [org.springframework.transaction.TransactionSystemException: Could not commit JPA transaction; nested exception is javax.persistence.RollbackException: Error while committing the transaction]
+""2023-07-21 09:47:12 - Completed 400 BAD_REQUEST
+""2023-07-21 09:47:24 - POST "/networkFunctionInstance/save", parameters={}
+""2023-07-21 09:47:24 - Mapped to com.example.controller.NetworkFunctionInstanceController#saveNfInstance(NetworkFunctionInstance)
+""2023-07-21 09:47:24 - Read "application/json;charset=UTF-8" to [NetworkFunctionInstance [networkFunctionInstanceId=NfTest1, networkFunctionInstanceType=NRF, status= (truncated)...]
+""2023-07-21 09:47:24 - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+""2023-07-21 09:47:24 - Writing [NetworkFunctionInstance [networkFunctionInstanceId=NfTest1, networkFunctionInstanceType=NRF, status= (truncated)...]
+""2023-07-21 09:47:24 - Completed 200 OK
+""2023-07-21 09:47:43 - GET "/networkFunctionInstance/getById/NfTest1", parameters={}
+""2023-07-21 09:47:43 - Mapped to com.example.controller.NetworkFunctionInstanceController#getNfInstance(String)
+""2023-07-21 09:47:43 - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+""2023-07-21 09:47:43 - Writing [NetworkFunctionInstance [networkFunctionInstanceId=NfTest1, networkFunctionInstanceType=NRF, status= (truncated)...]
+""2023-07-21 09:47:43 - Completed 200 OK
+""2023-07-21 09:50:33 - PUT "/networkFunctionInstance/update/NfTest1", parameters={}
+""2023-07-21 09:50:33 - Mapped to com.example.controller.NetworkFunctionInstanceController#updateNfInstance(NetworkFunctionInstance, String)
+""2023-07-21 09:50:33 - Could not resolve parameter [0] in public com.example.entity.NetworkFunctionInstance com.example.controller.NetworkFunctionInstanceController.updateNfInstance(com.example.entity.NetworkFunctionInstance,java.lang.String): JSON parse error: Unexpected character ('"' (code 34)): was expecting comma to separate Object entries; nested exception is com.fasterxml.jackson.core.JsonParseException: Unexpected character ('"' (code 34)): was expecting comma to separate Object entries
+ at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 4, column: 3]
+""2023-07-21 09:50:33 - Using @ExceptionHandler com.example.interceptors.GlobalExceptionHandler#handleException(Exception, WebRequest)
+""2023-07-21 09:50:33 - Using 'application/octet-stream', given [*/*] and supported [*/*]
+""2023-07-21 09:50:33 - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character ('"' (code 34)): was expecting comma to separate Object entries; nested exception is com.fasterxml.jackson.core.JsonParseException: Unexpected character ('"' (code 34)): was expecting comma to separate Object entries<EOL> at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 4, column: 3]]
+""2023-07-21 09:50:33 - Completed 400 BAD_REQUEST
+""2023-07-21 09:51:33 - PUT "/networkFunctionInstance/update/NfTest1", parameters={}
+""2023-07-21 09:51:33 - Mapped to com.example.controller.NetworkFunctionInstanceController#updateNfInstance(NetworkFunctionInstance, String)
+""2023-07-21 09:51:33 - Read "application/json;charset=UTF-8" to [NetworkFunctionInstance [networkFunctionInstanceId=null, networkFunctionInstanceType=UDM, status=nul (truncated)...]
+""2023-07-21 09:51:33 - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+""2023-07-21 09:51:33 - Writing [NetworkFunctionInstance [networkFunctionInstanceId=NfTest1, networkFunctionInstanceType=UDM, status= (truncated)...]
+""2023-07-21 09:51:33 - Completed 200 OK
+""2023-07-21 09:53:57 - PUT "/networkFunctionInstance/update/NfTest1", parameters={}
+""2023-07-21 09:53:57 - Mapped to com.example.controller.NetworkFunctionInstanceController#updateNfInstance(NetworkFunctionInstance, String)
+""2023-07-21 09:53:57 - Read "application/json;charset=UTF-8" to [NetworkFunctionInstance [networkFunctionInstanceId=null, networkFunctionInstanceType=UDM, status=nul (truncated)...]
+""2023-07-21 09:53:57 - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+""2023-07-21 09:53:57 - Writing [NetworkFunctionInstance [networkFunctionInstanceId=NfTest1, networkFunctionInstanceType=UDM, status= (truncated)...]
+""2023-07-21 09:53:57 - Completed 200 OK
+""2023-07-21 09:55:28 - PUT "/networkFunctionInstance/update/NfTest1", parameters={}
+""2023-07-21 09:55:28 - Mapped to com.example.controller.NetworkFunctionInstanceController#updateNfInstance(NetworkFunctionInstance, String)
+""2023-07-21 09:55:28 - Read "application/json;charset=UTF-8" to [NetworkFunctionInstance [networkFunctionInstanceId=null, networkFunctionInstanceType=UDM, status=Non (truncated)...]
+""2023-07-21 09:55:28 - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+""2023-07-21 09:55:28 - Writing [NetworkFunctionInstance [networkFunctionInstanceId=NfTest1, networkFunctionInstanceType=UDM, status= (truncated)...]
+""2023-07-21 09:55:28 - Completed 200 OK
+""2023-07-21 10:18:30 - Application shutdown requested.
+""2023-07-21 10:18:30 - Stopping service [Tomcat]
+""2023-07-21 10:18:30 - Destroying Spring FrameworkServlet 'dispatcherServlet'
+""2023-07-21 10:18:30 - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2023-07-21 10:18:30 - HikariPool-1 - Shutdown initiated...
+""2023-07-21 10:18:30 - HikariPool-1 - Shutdown completed.
+""2023-07-21 10:18:38 - Starting TelecomProject1Application using Java 17.0.3 on LAPTOP-2PQ3736K with PID 4624 (C:\Users\CHETANA SADARE\Downloads\Telecom-Project-1\Telecom-Project-1\target\classes started by CHETANA SADARE in C:\Users\CHETANA SADARE\Downloads\Telecom-Project-1\Telecom-Project-1)
+""2023-07-21 10:18:38 - Running with Spring Boot v2.7.13, Spring v5.3.28
+""2023-07-21 10:18:38 - No active profile set, falling back to 1 default profile: "default"
+""2023-07-21 10:18:38 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2023-07-21 10:18:39 - Finished Spring Data repository scanning in 44 ms. Found 3 JPA repository interfaces.
+""2023-07-21 10:18:39 - Tomcat initialized with port(s): 8060 (http)
+""2023-07-21 10:18:39 - Starting service [Tomcat]
+""2023-07-21 10:18:39 - Starting Servlet engine: [Apache Tomcat/9.0.76]
+""2023-07-21 10:18:39 - Initializing Spring embedded WebApplicationContext
+""2023-07-21 10:18:39 - Root WebApplicationContext: initialization completed in 1414 ms
+""2023-07-21 10:18:40 - HikariPool-1 - Starting...
+""2023-07-21 10:18:40 - HikariPool-1 - Start completed.
+""2023-07-21 10:18:41 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2023-07-21 10:18:42 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2023-07-21 10:18:42 - 10 mappings in 'requestMappingHandlerMapping'
+""2023-07-21 10:18:42 - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+""2023-07-21 10:18:42 - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+""2023-07-21 10:18:42 - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+""2023-07-21 10:18:42 - ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+""2023-07-21 10:18:42 - Tomcat started on port(s): 8060 (http) with context path ''
+""2023-07-21 10:18:42 - Context refreshed
+""2023-07-21 10:18:42 - Found 1 custom documentation plugin(s)
+""2023-07-21 10:18:42 - Scanning for api listing references
+""2023-07-21 10:18:42 - Started TelecomProject1Application in 4.652 seconds (JVM running for 5.116)
+"
